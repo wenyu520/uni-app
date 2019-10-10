@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/taskSquare/taskSquare"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#222222",
+    "selectedColor": "#222222",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home@2x.png",
+        "selectedIconPath": "static/home-active@2x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home@2x.png",
+        "selectedIconPath": "static/home-active@2x.png",
+        "text": "攻略"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
