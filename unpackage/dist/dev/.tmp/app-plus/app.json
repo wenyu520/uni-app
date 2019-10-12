@@ -1,7 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/taskSquare/taskSquare"
+    "pages/taskSquare/taskSquare",
+    "pages/styleScore/styleScore",
+    "components/load-more/load-more",
+    "pages/scoreDetail/scoreDetail"
   ],
   "window": {
     "navigationBarTextStyle": "black",

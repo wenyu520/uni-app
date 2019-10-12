@@ -1,4 +1,4 @@
-.fixed.data-v-3ad91127 {
+.fixed.data-v-0fc26b6d {
   position: fixed;
   bottom: 0;
   display: -webkit-box;
@@ -13,7 +13,7 @@
   width: 100%;
   border-top: 2rpx solid #e2e2e2;
 }
-.fixed > view.data-v-3ad91127:last-child {
+.fixed > view.data-v-0fc26b6d:last-child {
     width: 180rpx;
     background: #f44444;
     font-size: 30rpx;
@@ -31,17 +31,17 @@
             align-items: center;
     color: #fff;
 }
-.fixed > view.data-v-3ad91127:nth-child(2) {
+.fixed > view.data-v-0fc26b6d:nth-child(2) {
     font-size: 26rpx;
     -webkit-align-self: center;
         -ms-flex-item-align: center;
             align-self: center;
 }
-.fixed > view:nth-child(2) text.data-v-3ad91127 {
+.fixed > view:nth-child(2) text.data-v-0fc26b6d {
       color: #f44444;
       padding: 0 15rpx;
 }
-.fixed > view.data-v-3ad91127:first-child {
+.fixed > view.data-v-0fc26b6d:first-child {
     font-size: 26rpx;
     display: -webkit-box;
     display: -webkit-flex;
@@ -52,17 +52,17 @@
         -ms-flex-align: center;
             align-items: center;
 }
-radio.data-v-3ad91127 {
+radio.data-v-0fc26b6d {
   -webkit-transform: scale(0.7);
       -ms-transform: scale(0.7);
           transform: scale(0.7);
 }
-swiper.data-v-3ad91127 {
+swiper.data-v-0fc26b6d {
   width: 654rpx;
   margin: 0 auto;
   height: 500px;
 }
-swiper .swiper-item-list.data-v-3ad91127 {
+swiper .swiper-item-list.data-v-0fc26b6d {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -73,7 +73,7 @@ swiper .swiper-item-list.data-v-3ad91127 {
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
-swiper .swiper-item-list > view.data-v-3ad91127:first-child {
+swiper .swiper-item-list > view.data-v-0fc26b6d:first-child {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -89,17 +89,17 @@ swiper .swiper-item-list > view.data-v-3ad91127:first-child {
               align-self: flex-start;
       color: #999;
 }
-swiper .swiper-item-list > view:first-child .name.data-v-3ad91127 {
+swiper .swiper-item-list > view:first-child .name.data-v-0fc26b6d {
         color: #222;
         font-size: 30rpx;
         margin-bottom: 15rpx;
 }
-swiper .swiper-item-list > view:first-child > view.data-v-3ad91127:first-child {
+swiper .swiper-item-list > view:first-child > view.data-v-0fc26b6d:first-child {
         -webkit-align-self: center;
             -ms-flex-item-align: center;
                 align-self: center;
 }
-swiper .swiper-item-list > view:first-child > view.data-v-3ad91127:last-child {
+swiper .swiper-item-list > view:first-child > view.data-v-0fc26b6d:last-child {
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
             -ms-flex-pack: justify;
@@ -111,7 +111,7 @@ swiper .swiper-item-list > view:first-child > view.data-v-3ad91127:last-child {
                 flex-direction: column;
         padding-left: 30rpx;
 }
-swiper .swiper-item-list > view.data-v-3ad91127:last-child {
+swiper .swiper-item-list > view.data-v-0fc26b6d:last-child {
       -webkit-align-self: center;
           -ms-flex-item-align: center;
               align-self: center;
@@ -125,19 +125,19 @@ swiper .swiper-item-list > view.data-v-3ad91127:last-child {
           -ms-flex-align: end;
               align-items: flex-end;
 }
-swiper .swiper-item-list > view:last-child text.data-v-3ad91127 {
+swiper .swiper-item-list > view:last-child text.data-v-0fc26b6d {
         color: #f44444;
         font-size: 34rpx;
         padding-right: 10rpx;
 }
-.sx.data-v-3ad91127 {
+.sx.data-v-0fc26b6d {
   font-size: 26rpx;
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
   margin-right: 20rpx;
 }
-.nav-list.data-v-3ad91127 {
+.nav-list.data-v-0fc26b6d {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -147,7 +147,7 @@ swiper .swiper-item-list > view:last-child text.data-v-3ad91127 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.icon_distribution.data-v-3ad91127 {
+.icon_distribution.data-v-0fc26b6d {
   background: #f44444;
   width: 120rpx;
   height: 50rpx;

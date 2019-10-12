@@ -41,7 +41,7 @@
 				</navigator>
 			</view>
 			<view class="list-item">
-				 <navigator url="/pages/taskSquare/taskSquare" open-type="navigate">
+				 <navigator url="/pages/styleScore/styleScore" open-type="navigate">
 					<view class="num">123</view>
 					<view class="con">
 						<view class="title">款图打分</view>

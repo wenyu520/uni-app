@@ -9,6 +9,7 @@
 				class="uni-tab-item">
 				<span v-if="tab.icon != undefined" class="iconfont mr5" :class="tab.icon"></span>
 				<text>{{rangeKey == '' ? tab : tab[rangeKey]}}</text>
+				<text v-if="rangeNum !== ''">({{tab[rangeNum]}})</text>
 			</view>
 			<view v-if="!scroll" :style="[{ right: barRight + '%', left : barLeft + '%', borderColor: activeColor }]" class="uni-tab-bar" :class="back ? 'uni-tab-bar-backward' : 'uni-tab-bar-forward'"></view>
 		</view>
@@ -57,6 +58,12 @@
 				}
 			},
 			rangeKey: { // 当tabList为对象时 显示指定下标值
+				type: String,
+				default () {
+					return '';
+				}
+			},
+			rangeNum: { // 是否有数量需要显示
 				type: String,
 				default () {
 					return '';

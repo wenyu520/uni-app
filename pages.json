@@ -16,7 +16,30 @@
 				"navigationBarBackgroundColor": "#ffffff"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/styleScore/styleScore",
+            "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "图款打分",
+				"navigationBarBackgroundColor": "#ffffff",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "components/load-more/load-more",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/scoreDetail/scoreDetail",
+            "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "款号打分信息",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarBackgroundColor": "#F8F8F8",

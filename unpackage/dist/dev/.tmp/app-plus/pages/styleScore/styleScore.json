@@ -1,0 +1,12 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "图款打分",
+  "navigationBarBackgroundColor": "#ffffff",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "sun-tab": "/components/sun-tab/sun-tab",
+    "nav-bar": "/components/nav-bar/nav-bar",
+    "load-more": "/components/load-more/load-more"
+  }
+}
