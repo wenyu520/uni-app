@@ -4,7 +4,10 @@
     "pages/taskSquare/taskSquare",
     "pages/styleScore/styleScore",
     "components/load-more/load-more",
-    "pages/scoreDetail/scoreDetail"
+    "pages/scoreDetail/scoreDetail",
+    "pages/scoredDetail/scoredDetail",
+    "components/score-list/score-list",
+    "pages/styleAudit/styleAudit"
   ],
   "window": {
     "navigationBarTextStyle": "black",

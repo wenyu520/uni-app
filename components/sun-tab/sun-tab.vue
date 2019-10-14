@@ -108,7 +108,7 @@
 				}
 				// this.value = index;
 				this.$emit('update:value', index);
-				this.$emit('change',{tab:tab});
+				this.$emit('change',tab);
 			}
 		}
 	};

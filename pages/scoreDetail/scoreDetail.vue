@@ -1,10 +1,11 @@
 <template>
-	<view>
+	<view class="SD_Page">
 		<navBar
 		title="款号打分信息" 
 		fontColor="#222">
 		</navBar>
-		<view>
+		<view class="SD_Content">
+			<view></view>
 			<!-- 图片展示 横向滚动 -->
 			<scroll-view class="scroll-view_H" scroll-x="true" scroll-left="120">
 				<view id="demo1" class="scroll-view-item_H">
@@ -23,7 +24,7 @@
 					<image src="../../static/v2_pxx41d.jpg"></image>
 				</view>
 			</scroll-view>
-			<!-- 信息部分 -->
+			<!--信息部分 -->
 			<view class="SD_Info">
 				<view>设计号<text>002233</text></view>
 				<view>款式名称<text>间条大纹理</text></view>
@@ -71,7 +72,20 @@
 		</view>
 		<!-- 我的分数，固定布局部分 -->
 		<view class="SD_MyScore">
-			<text>我的分数</text>
+			<text class="SD_MyScore_title">我的分数</text></br>
+			<view class="SD_Score_inp">
+				<text>自定义分数</text>
+				<input v-model="score" />
+			</view>
+			<view class="SD_Score_options">
+				<view v-for = '(item,index) in scoreItem' :key='index' :class="{active:item === selectScore}" @click='selectdScore(item)'>
+					{{item}}
+				</view>
+			</view>
+			<view class="SD_Score_Btn">
+				<button type="default" >确定并继续打分</button>
+				<button type="warn" @click="handleScore">确定打分</button>
+			</view>
 		</view>
 	</view>
 </template>
@@ -81,110 +95,31 @@
 	export default {
 		data() {
 			return {
-				
+				scoreItem:[100,90,80,70,60],
+				selectScore:0,
+				score:'',
 			}
 		},
-		methods: {
+		computed:{
 			
+		},
+		methods: {
+			selectdScore(item){
+				this.selectScore = item;
+				this.score = item
+			},
+			handleScore(){
+				uni.navigateTo({
+					url:'../scoredDetail/scoredDetail?score='+this.score
+				})
+			}
 		},
 		components:{
 			navBar
 		}
 	}
 </script>
-
 <style lang="scss" >
-	.scroll-view_H{
-		white-space: nowrap;
-		.scroll-view-item_H{
-			display: inline-block;
-			width: 100px;
-			height: 90px;
-			margin: 10px 0 10px 10px;
-			image{
-				width: 100%;
-				height: 100%;
-			}
-			
-		}
-	}
-	.SD_Info{
-		font-size: 12px;
-		padding: 0 10px;
-		view{
-			color: rgb(183, 183, 183);
-			margin-top:15px;
-			text{
-				color: rgba(51, 51, 51, 1);
-				margin-left: 20px;
-			}
-		}
-	}
-	.SD_Tag{
-		padding:10px;
-		text{
-			font-size: 14px;
-			color: rgb(95, 95, 95);
-			font-weight: 700;
-		}
-		view{
-			display: flex;
-			flex-direction: row;
-			margin-top: 8px;
-			text{
-				border: 1px solid #ececec;
-				padding: 4px 9px;
-				font-weight: normal;
-				font-size: 12px;
-				border-radius: 5px;
-				margin-left: 10px;
-				&:first-child{
-					margin-left: 0;
-				}
-			}
-		}
-	}
-	.SD_Remark{
-		padding:10px;
-		text{
-			font-size: 14px;
-			color: rgb(95, 95, 95);
-			font-weight: 700;
-		}
-		textarea{
-			display: flex;
-			width: 100%;
-			margin-top: 8px;
-			text-indent: 10px;
-			color: #333333;
-			font-size: 12px;
-			border: 1px solid #ececec;
-		}
-	}
-	.SD_Detail{
-		padding: 10px 0;
-		.SD_Detail_Title{
-			display: flex;
-			font-size: 14px;
-			padding: 0 0 10px 10px;
-			border-bottom: 1px solid #ececec;
-		}
-		.SD_Detail_Cont{
-			display: flex;
-			flex-direction: row;
-			flex-wrap:wrap;
-			padding: 0 10px;
-			view{
-				width: 50%;
-				margin-top: 10px;
-				font-size: 12px;
-				color: rgb(183, 183, 183);
-				text{
-					border: none;
-					color: rgb(95, 95, 95);
-				}
-			}
-		}
-	}
-
+	@import "../../static/scoreDetail/scoreDetail.scss";
+	
 </style>
