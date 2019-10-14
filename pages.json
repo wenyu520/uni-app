@@ -15,6 +15,14 @@
 				"navigationBarTitleText": "任务广场",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
+		},
+		{
+			"path": "pages/assignmentTask/index",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "分配任务",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
 		}
 	    ,{
             "path" : "pages/styleScore/styleScore",
