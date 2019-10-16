@@ -1,1 +1,0 @@
-<view class="load-more data-v-f779d992"><block wx:if="{{loadingType===0}}"><text class="loading-text data-v-f779d992" style="{{'color:'+(color)+';'}}">{{''+contentText.contentnomore+''}}</text></block></view>
