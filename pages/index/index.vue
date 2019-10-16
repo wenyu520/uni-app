@@ -51,7 +51,7 @@
 				</navigator>
 			</view>
 			<view class="list-item">
-				 <navigator url="/pages/taskSquare/taskSquare" open-type="navigate">
+				 <navigator url="/pages/styleAudit/styleAudit" open-type="navigate">
 					<view class="num">123</view>
 					<view class="con">
 						<view class="title">选款终审</view>

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/taskSquare/taskSquare",
+    "pages/styleScore/styleScore",
+    "components/load-more/load-more",
+    "pages/scoreDetail/scoreDetail",
+    "pages/scoredDetail/scoredDetail",
+    "components/score-list/score-list",
+    "pages/styleAudit/styleAudit"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#222222",
+    "selectedColor": "#222222",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home@2x.png",
+        "selectedIconPath": "static/home-active@2x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home@2x.png",
+        "selectedIconPath": "static/home-active@2x.png",
+        "text": "攻略"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "uni-app",
+  "compilerVersion": "2.3.3",
+  "usingComponents": {}
+}

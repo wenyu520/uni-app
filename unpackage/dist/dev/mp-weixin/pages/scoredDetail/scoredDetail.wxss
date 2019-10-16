@@ -1,0 +1,335 @@
+.SD_Page {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.SD_Page .SD_Content {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    overflow-y: scroll;
+}
+.SD_Page .SD_Content .scroll-view_H {
+      white-space: nowrap;
+}
+.SD_Page .SD_Content .scroll-view_H .scroll-view-item_H {
+        display: inline-block;
+        width: 100px;
+        height: 90px;
+        margin: 10px 0 10px 10px;
+}
+.SD_Page .SD_Content .scroll-view_H .scroll-view-item_H image {
+          width: 100%;
+          height: 100%;
+}
+.SD_Page .SD_Content .SD_Info {
+      font-size: 12px;
+      padding: 0 10px;
+}
+.SD_Page .SD_Content .SD_Info view {
+        color: #b7b7b7;
+        margin-top: 15px;
+}
+.SD_Page .SD_Content .SD_Info view text {
+          color: #333333;
+          margin-left: 20px;
+}
+.SD_Page .SD_Content .SD_Tag {
+      padding: 10px;
+}
+.SD_Page .SD_Content .SD_Tag text {
+        font-size: 14px;
+        color: #5f5f5f;
+        font-weight: 700;
+}
+.SD_Page .SD_Content .SD_Tag view {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        margin-top: 8px;
+}
+.SD_Page .SD_Content .SD_Tag view text {
+          border: 1px solid #ececec;
+          padding: 4px 9px;
+          font-weight: normal;
+          font-size: 12px;
+          border-radius: 5px;
+          margin-left: 10px;
+}
+.SD_Page .SD_Content .SD_Tag view text:first-child {
+            margin-left: 0;
+}
+.SD_Page .SD_Content .SD_Remark {
+      padding: 10px;
+}
+.SD_Page .SD_Content .SD_Remark text {
+        font-size: 14px;
+        color: #5f5f5f;
+        font-weight: 700;
+}
+.SD_Page .SD_Content .SD_Remark textarea {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        margin-top: 8px;
+        text-indent: 10px;
+        color: #333333;
+        font-size: 12px;
+        border: 1px solid #ececec;
+}
+.SD_Page .SD_Content .SD_Detail {
+      padding: 10px 0;
+}
+.SD_Page .SD_Content .SD_Detail .SD_Detail_Title {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 14px;
+        padding: 0 0 10px 10px;
+        border-bottom: 1px solid #ececec;
+}
+.SD_Page .SD_Content .SD_Detail .SD_Detail_Cont {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        padding: 0 10px;
+}
+.SD_Page .SD_Content .SD_Detail .SD_Detail_Cont view {
+          width: 50%;
+          margin-top: 10px;
+          font-size: 12px;
+          color: #b7b7b7;
+}
+.SD_Page .SD_Content .SD_Detail .SD_Detail_Cont view text {
+            margin-left: 8px;
+            border: none;
+            color: #5f5f5f;
+}
+.SD_Page .SD_MyScore {
+    border-top-left-radius: 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px -10px 15px 0px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px -10px 15px 0px;
+    border-top-right-radius: 8px;
+}
+.SD_Page .SD_MyScore .SD_MyScore_title {
+      padding: 0 10px;
+      font-size: 14px;
+      font-weight: 700;
+      color: #5f5f5f;
+}
+.SD_Page .SD_MyScore .SD_Score_inp {
+      margin: 10px;
+      background: #f1f1f1;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      padding: 8px 0;
+}
+.SD_Page .SD_MyScore .SD_Score_inp text {
+        font-size: 12px;
+        width: 80px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+}
+.SD_Page .SD_MyScore .SD_Score_inp input {
+        font-size: 12px;
+        background: #fff;
+        border: 1px solid #999;
+}
+.SD_Page .SD_MyScore .SD_Score_options {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      padding: 0 10px;
+}
+.SD_Page .SD_MyScore .SD_Score_options view {
+        border: 1px solid #ececec;
+        padding: 4px 9px;
+        font-weight: normal;
+        font-size: 12px;
+        border-radius: 5px;
+        margin-left: 10px;
+}
+.SD_Page .SD_MyScore .SD_Score_options view:first-child {
+          margin-left: 0;
+}
+.SD_Page .SD_MyScore .SD_Score_options view.active {
+          color: red;
+          border-color: red;
+}
+.SD_Page .SD_MyScore .SD_Score_Btn {
+      margin-top: 10px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+}
+.SD_Page .SD_MyScore .SD_Score_Btn button {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+}
+.SD_Page .SD_MyScore .SD_Score_Btn button[type=default] {
+          color: red;
+}
+.SD_Score_Info .SD_Score_Title {
+  padding: 5px 10px;
+  border-bottom: 1px solid #ececec;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.SD_Score_Info .SD_Score_Title .title {
+    font-size: 14px;
+    color: #5f5f5f;
+    font-weight: 700;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.SD_Score_Info .SD_Score_Title .score {
+    font-size: 12px;
+    font-weight: 400;
+    color: #101010;
+}
+.SD_Score_Info .SD_Score_Title .score text {
+      color: #f65a51;
+      font-size: 18px;
+      font-weight: 700;
+}
+.SD_Score_Info .SD_Score_list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10px 10px 0 10px;
+}
+.SD_Score_Info .SD_Score_list .SD_Score_avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.SD_Score_Info .SD_Score_list .SD_Score_Collecting {
+    margin-left: 10px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.SD_Score_Info .SD_Score_list .SD_Score_Collecting .info {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+}
+.SD_Score_Info .SD_Score_list .SD_Score_Collecting .info .name {
+        color: #101010;
+        font-size: 16px;
+        font-weight: 700;
+}
+.SD_Score_Info .SD_Score_list .SD_Score_Collecting .info .weight {
+        margin-left: 10px;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center;
+        font-size: 12px;
+        color: #999999;
+}
+.SD_Score_Info .SD_Score_list .SD_Score_Collecting .info .weight text {
+          margin-left: 3px;
+          color: #333;
+}
+.SD_Score_Info .SD_Score_list .SD_Score_Collecting .info .score {
+        font-size: 12px;
+        color: #999999;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center;
+}
+.SD_Score_Info .SD_Score_list .SD_Score_Collecting .info .score text {
+          font-weight: 700;
+          color: #101010;
+          margin-right: 3px;
+}
+.SD_Score_Info .SD_Score_list .SD_Score_Collecting .remark icon {
+      vertical-align: middle;
+}
+.SD_Score_Info .SD_Score_list .SD_Score_Collecting .remark text {
+      font-size: 12px;
+      line-height: 22px;
+      margin-left: 3px;
+}
+

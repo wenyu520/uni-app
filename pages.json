@@ -47,6 +47,28 @@
 				"navigationBarBackgroundColor": "#ffffff"
 			}
         }
+        ,{
+            "path" : "pages/scoredDetail/scoredDetail",
+            "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "款号打分信息",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
+        ,{
+            "path" : "components/score-list/score-list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/styleAudit/styleAudit",
+            "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "选款终审",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

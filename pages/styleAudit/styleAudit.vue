@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<navBar
-		title="图款打分" 
+		title="选款终审" 
 		fontColor="#222">
 		</navBar>
 		<sun-tab :value.sync="tabIndex" :tabList="tabDataList" :rangeKey='tabRangeKey' :rangeNum='tabRangeNum' activeColor="#f44444" @change='handleTabChange'>
@@ -12,7 +12,6 @@
 		<loadMore :loadingType="loadingType" :contentText="contentText">
 		</loadMore>
 	</view>
-	
 </template>
 
 <script>
@@ -25,10 +24,10 @@
 			return {
 				tabIndex:0,
 				tabDataList:[{
-					name:'未打分',
+					name:'待审核',
 					num:0
 				},{
-					name:'已打分',
+					name:'已审核',
 					num:0
 				}],
 				tabRangeKey:'name',
@@ -45,57 +44,10 @@
 					structure:'上衣/T恤',
 					designer:'LOMEN',
 					brand:'NIKE',
-					designNum:'Ban2010HK-11'
+					designNum:'Ban2010HK-11',
+					score:90
 				}],
-				url:'../scoreDetail/scoreDetail',
-				isShow:false,
-			}
-		},
-		onLoad: function() {
-			this.InitList();
-		},
-		onPullDownRefresh: function() {//上拉刷新
-			this.InitList();
-		},
-		onReachBottom: function() {//下拉加载更多
-			if(this.loadingType === 0) {
-				return
-			}
-			uni.showNavigationBarLoading();
-			this.InitList();
-		},
-		methods: {
-			InitList(){
-				for(var i = 0; i<10; i++){
-					let item = {
-						pic:'../../static/v2_pxx41d.jpg',
-						year:'2019',
-						temp:'第一波段',
-						season:'春季',
-						structure:'上衣/T恤',
-						designer:'LOMEN',
-						brand:'NIKE',
-						designNum:'Ban2010HK-11'
-					}
-					this.listData.push(item)
-				}
-				this.loadingType= 0
-				uni.hideNavigationBarLoading();
-				uni.stopPullDownRefresh();//停止加载动画
-			},
-			handleTabChange(tab){
-				this.url = tab.name === "已打分" ? '../scoredDetail/scoredDetail' : '../scoreDetail/scoreDetail'
-				if(tab.name === '已打分') {
-					this.listData.map(item=>{
-						this.$set(item,'score',90)
-					})
-				} else {
-					this.listData.map(item=>{
-						if(item.score){
-							this.$delete(item,'score')
-						}
-					})
-				}	
+				url:''
 			}
 		},
 		components: {
@@ -104,9 +56,25 @@
 			loadMore,
 			scoreList
 		},
+		methods: {
+			handleTabChange(tab){
+				this.url = tab.name === "已审核" ? '../scoredDetail/scoredDetail' : '../scoreDetail/scoreDetail'
+				if(tab.name === '已审核') {
+					this.listData.map(item=>{
+						this.$set(item,'audit',"已审核")
+					})
+				} else {
+					this.listData.map(item=>{
+						if(item.audit){
+							this.$delete(item,'audit')
+						}
+					})
+				}
+			}
+		}
 	}
 </script>
 
-<style lang="scss">
+<style>
 
 </style>
