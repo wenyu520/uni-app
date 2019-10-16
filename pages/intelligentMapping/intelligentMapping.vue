@@ -7,6 +7,32 @@
 			<swiper-item v-for="(swiper,index) in tabSwiperList" :key="index">
 				<view class="swiper-item-list">
 
+					<view class="item-list">
+						<view>
+							<view>上衣/T桖</view>
+							<view>0/7</view>
+						</view>
+						<view>
+							<view class="view">
+								<view><text>年度</text>2019</view>
+								<view><text>波段</text>第一波段</view>
+							</view>
+							<view  class="view">
+								<view><text>季节</text>春季</view>
+								<view><text>主题</text>NIKE</view>
+							</view>
+							<view><text>开始时间</text>2019.2.2</view>
+							<view><text>结束时间</text>2019.2.2</view>
+							<view class="icon" @click="takePhoto">上传图片</view>
+
+						</view>
+					</view>
+					<div class="image-list">
+						<view class="con"  v-for="(item, i) in srcList" :key="i">
+							<image mode="scaleToFill" :src="item"></image>
+							<view>未发布</view>
+						</view>
+					</div>
 				</view>
 			</swiper-item>
 		</swiper>
@@ -85,10 +111,43 @@
             return {
                 showRigth:false,
                 swiperIndex:0,
+                srcList:[],
                 tabSwiperList: ['未安排','已安排'],
             };
         },
         methods:{
+            /**
+			 * 拍照
+             */
+            takePhoto(){
+				let self = this
+                uni.chooseImage({
+                    count: 6, //默认9
+                    sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有
+                    sourceType: ['album','camera'], //从相册选择 和 相机
+                    success: function (res) {
+                        self.srcList.push(...res.tempFilePaths)
+
+						// 选中图片后 预览  按下 提示  =》 '发送给朋友', '保存图片', '收藏'
+                        // uni.previewImage({
+                        //     urls: res.tempFilePaths,
+                        //     longPressActions: {
+                        //         itemList: ['发送给朋友', '保存图片', '收藏'],
+                        //         success: function(data) {
+                        //             console.log('选中了第' + (data.tapIndex + 1) + '个按钮,第' + (data.index + 1) + '张图片');
+                        //         },
+                        //         fail: function(err) {
+                        //             console.log(err.errMsg);
+                        //         }
+                        //     }
+                        // });
+                    }
+                });
+			},
+            error(e) {
+                console.log(e.detail);
+            },
+
             swiperChange(e){
                 this.swiperIndex = e.target.current;
             },
@@ -108,13 +167,91 @@
 <style lang="scss" scoped>
 
 	swiper{
-		width: $width;
+		width: 730upx;
 		margin: 0 auto;
 		height: 500px;
 		.swiper-item-list{
-			display: flex;
-			padding: 20upx 0;
-			justify-content: space-between;
+			border-radius: 10upx;
+			padding: 20upx;
+
+			.item-list{
+				display: flex;
+				justify-content: space-between;
+
+				& > view:first-child{
+					width: 200upx;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-evenly;
+					text-align: center;
+
+					& > view:first-child{
+						font-size: 36upx;
+						font-weight: bold;
+					}
+					& > view:last-child{
+						color: #ff0000;
+						font-size: 34upx;
+					}
+				}
+				& > view:last-child{
+					width: 400upx;
+					color: #666;
+					font-size: 28upx;
+					.view{
+						display: flex;
+						justify-content: space-between;
+					}
+					text{
+						color: #000;
+						font-weight: bold;
+						padding-right: 20upx;
+					}
+				}
+			}
+			.image-list{
+				display: flex;
+				flex-flow: wrap;
+				justify-content: flex-start;
+				border-top: 2upx solid #e2e2e2;
+				padding: 10upx 0;
+
+				.con{
+					position: relative;
+					margin-right: 20upx;
+					margin-bottom: 20upx;
+					overflow: hidden;
+					border-radius: 60upx;
+					&:nth-child(5n){
+						margin-right: 0;
+					}
+					view{
+						position: absolute;
+						height: 50upx;
+						background: rgba(0,0,0,0.5);
+						color: #fff;
+						font-size: 24upx;
+						bottom: 0;
+						width: 100%;
+
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+				}
+				image{
+					width: 120upx;
+					height: 120upx ;
+					vertical-align: middle;
+
+
+				}
+			}
+			.icon{
+				text-align: right;
+				color: #bd2c00;
+			}
+
 
 		}
 	}

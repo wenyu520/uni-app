@@ -7,9 +7,9 @@
 				<view>广州恒康信息科技有限公司</view>
 			</view>
 		</view>
-		
+
 		<view class="list">
-			
+
 			<view class="list-item">
 				 <navigator hover-class="navigator-hover" url="/pages/taskSquare/taskSquare" open-type="navigate">
 					<view class="num">123</view>
@@ -21,7 +21,7 @@
 				</navigator>
 			</view>
 			<view class="list-item">
-				 <navigator url="/pages/taskSquare/taskSquare" open-type="navigate">
+				 <navigator url="/pages/intelligentMapping/intelligentMapping" open-type="navigate">
 					<view class="num">123</view>
 					<view class="con">
 						<view class="title">智能传款</view>
@@ -51,7 +51,7 @@
 				</navigator>
 			</view>
 			<view class="list-item">
-				 <navigator url="/pages/styleAudit/styleAudit" open-type="navigate">
+				 <navigator url="/pages/taskSquare/taskSquare" open-type="navigate">
 					<view class="num">123</view>
 					<view class="con">
 						<view class="title">选款终审</view>
@@ -104,7 +104,7 @@
 				background: #fff;
 				border-radius: 10upx;
 				box-shadow: -14upx 12upx 6upx 0 rgba(0,0,0,0.2);
-	
+
 				border: 2upx solid #e2e2e2;
 				position: relative;
 				navigator{
@@ -114,7 +114,7 @@
 				.navigator-hover{
 					background-color: transparent;
 				}
-				
+
 				.num{
 					position: absolute;
 					right: -20upx;
@@ -144,7 +144,7 @@
 					color: #666;
 					font-size: 24upx;
 					margin-top: 12upx;
-				
+
 				}
 			}
 		}

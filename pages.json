@@ -59,6 +59,12 @@
         ,{
             "path" : "components/score-list/score-list",
             "style" : {}
+        } ,{
+            "path" : "pages/intelligentMapping/intelligentMapping",
+            "style" : {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "智能传图"
+			}
         }
         ,{
             "path" : "pages/styleAudit/styleAudit",
