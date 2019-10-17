@@ -1,9 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdf3b152-4344-4c2f-8c35-73d51a439e12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+    <list default="true" id="bdf3b152-4344-4c2f-8c35-73d51a439e12" name="Default Changelist" comment="zxz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/uni-drawer/uni-drawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/uni-drawer/uni-drawer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/vendor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/load-more/load-more.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/load-more/load-more.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/score-list/score-list.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/score-list/score-list.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/sun-tab/sun-tab.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/sun-tab/sun-tab.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/scoreDetail/scoreDetail.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/scoreDetail/scoreDetail.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/scoredDetail/scoredDetail.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/scoredDetail/scoredDetail.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/styleAudit/styleAudit.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/styleAudit/styleAudit.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/styleScore/styleScore.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/styleScore/styleScore.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/common/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/common/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/load-more/load-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/load-more/load-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/nav-bar/nav-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/nav-bar/nav-bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/score-list/score-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/score-list/score-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/score-list/score-list.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/score-list/score-list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/score-list/score-list.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/score-list/score-list.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/score-list/score-list.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/score-list/score-list.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/sun-tab/sun-tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/sun-tab/sun-tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-drawer/uni-drawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-drawer/uni-drawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/scoreDetail/scoreDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/scoreDetail/scoreDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/scoreDetail/scoreDetail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/scoreDetail/scoreDetail.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/scoredDetail/scoredDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/scoredDetail/scoredDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/scoredDetail/scoredDetail.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/scoredDetail/scoredDetail.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/scoredDetail/scoredDetail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/scoredDetail/scoredDetail.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleAudit/styleAudit.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleAudit/styleAudit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleAudit/styleAudit.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleAudit/styleAudit.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleAudit/styleAudit.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleAudit/styleAudit.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleScore/styleScore.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleScore/styleScore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleScore/styleScore.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleScore/styleScore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleScore/styleScore.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/styleScore/styleScore.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/taskSquare/taskSquare.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/taskSquare/taskSquare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/__uniappview.html" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/__uniappview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/components/score-list/score-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/components/score-list/score-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/scoreDetail/scoreDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/scoreDetail/scoreDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/scoredDetail/scoredDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/scoredDetail/scoredDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/styleAudit/styleAudit.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/styleAudit/styleAudit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/styleScore/styleScore.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/styleScore/styleScore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/load-more/load-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/load-more/load-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/load-more/load-more.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/load-more/load-more.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/load-more/load-more.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/load-more/load-more.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/load-more/load-more.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/load-more/load-more.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/nav-bar/nav-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/nav-bar/nav-bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/score-list/score-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/score-list/score-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/score-list/score-list.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/score-list/score-list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/score-list/score-list.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/score-list/score-list.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/score-list/score-list.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/score-list/score-list.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/sun-tab/sun-tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/sun-tab/sun-tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/sun-tab/sun-tab.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/sun-tab/sun-tab.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/uni-drawer/uni-drawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/uni-drawer/uni-drawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoreDetail/scoreDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoreDetail/scoreDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoreDetail/scoreDetail.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoreDetail/scoreDetail.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoreDetail/scoreDetail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoreDetail/scoreDetail.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoredDetail/scoredDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoredDetail/scoredDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoredDetail/scoredDetail.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoredDetail/scoredDetail.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoredDetail/scoredDetail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/scoredDetail/scoredDetail.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleAudit/styleAudit.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleAudit/styleAudit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleAudit/styleAudit.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleAudit/styleAudit.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleAudit/styleAudit.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleAudit/styleAudit.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleScore/styleScore.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleScore/styleScore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleScore/styleScore.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleScore/styleScore.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleScore/styleScore.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/styleScore/styleScore.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/taskSquare/taskSquare.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/taskSquare/taskSquare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/project.config.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,10 +93,129 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="json" value="7" />
+          <entry key="txt" value="3" />
+          <entry key="vue" value="941" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="7" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Vue.js" value="941" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="scss" value="1" />
+          <entry key="vue" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="SCSS" value="1" />
+          <entry key="Vue.js" value="1" />
+        </counts>
+      </usages-collector>
     </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/taskSquare/taskSquare.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="59" selection-end-line="321" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/intelligentMapping/intelligentMapping.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="128" column="63" selection-start-line="128" selection-start-column="63" selection-end-line="128" selection-end-column="63" />
+              <folding>
+                <element signature="n#style#0;n#view#0;n#view#0;n#uni-drawer#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#2782#2836#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uni.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/assignmentTask/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="104" column="54" lean-forward="true" selection-start-line="104" selection-start-column="54" selection-end-line="104" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/uni-drawer/uni-drawer.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/styleScore/styleScore.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>swiper-item-list</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pages/index/index.vue" />
+        <option value="$PROJECT_DIR$/pages/intelligentMapping/intelligentMapping.vue" />
+        <option value="$PROJECT_DIR$/pages.json" />
+        <option value="$PROJECT_DIR$/components/uni-drawer/uni-drawer.vue" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -33,8 +223,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="50" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="34" />
     <option name="y" value="67" />
     <option name="width" value="1424" />
     <option name="height" value="867" />
@@ -44,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -51,11 +242,26 @@
               <item name="uni-apps" type="b2602c69:ProjectViewProjectNode" />
               <item name="uni-apps" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="uni-apps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uni-apps" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uni-apps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uni-apps" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="uni-drawer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uni-apps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uni-apps" type="462c0819:PsiDirectoryNode" />
+              <item name="unpackage" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -87,21 +293,27 @@
       <updated>1570697687977</updated>
       <workItem from="1570697689207" duration="725000" />
     </task>
+    <task id="LOCAL-00001" summary="zxz">
+      <created>1571220294506</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571220294506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="725000" />
+    <option name="totallyTimeSpent" value="11790000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="34" y="67" width="1424" height="867" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18229716" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18181819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -109,6 +321,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.329235" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -119,5 +335,51 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="true" />
+    <MESSAGE value="zxz" />
+    <option name="LAST_COMMIT_MESSAGE" value="zxz" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/uni.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/intelligentMapping/intelligentMapping.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="128" column="63" selection-start-line="128" selection-start-column="63" selection-end-line="128" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#view#0;n#uni-drawer#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#2782#2836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uni-drawer/uni-drawer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="104" column="54" lean-forward="true" selection-start-line="104" selection-start-column="54" selection-end-line="104" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -6,6 +6,12 @@
 				"navigationBarTitleText": "",
 				"navigationBarBackgroundColor": "#ffffff"
 			}
+		},{
+			"path": "pages/person/person",
+			"style": {
+				"navigationBarTitleText": "个人",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
 		},
 		{
 			"path": "pages/taskSquare/taskSquare",
@@ -94,10 +100,10 @@
       "text": "首页"
     },
     {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/person/person",
       "iconPath": "static/home@2x.png",
       "selectedIconPath": "static/home-active@2x.png",
-      "text": "攻略"
+      "text": "个人"
     }
     ]
   }
